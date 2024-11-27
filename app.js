@@ -58,7 +58,7 @@ document.getElementById("mainInput").addEventListener("click", () => {
       datasets: [
         {
           label: "Total Distance Of Run in Each Day",
-          backgroundColor: "rgb(198, 46, 46)",
+          backgroundColor: "rgb(245, 247, 248)",
           data: tempArray2,
           borderWidth: 1,
         },
@@ -74,13 +74,13 @@ document.getElementById("mainInput").addEventListener("click", () => {
   });
 
   new Chart(ctx2, {
-    type: "line",
+    type: "bar",
     data: {
       labels: tempArray,
       datasets: [
         {
           label: "Weight prograss in Each Day",
-          backgroundColor: "rgb(198, 46, 46)",
+          backgroundColor: "rgb(245, 247, 248)",
           data: tempArray3,
           borderWidth: 1,
         },
