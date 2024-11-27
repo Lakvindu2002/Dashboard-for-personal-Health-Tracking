@@ -1,5 +1,5 @@
 
-Swal.fire("Welcome to Health Tracker");
+
 
 const ctx = document.getElementById('myChart');
 const ctx2 = document.getElementById('myChart2');
