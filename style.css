@@ -1,9 +1,7 @@
-body{
-
-    background-image: url("images/Running2.jpg");
-    background-position: "center";
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 4;
-    
+body {
+  background-image: url("images/Running2.jpg");
+  background-position: "center";
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 4;
 }
